@@ -1,0 +1,35 @@
+/* Menu Desktop */
+
+header .Menu-Desktop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  padding: 0.3rem;
+  justify-content: space-between;
+  background-color: var(--bg-color-menu_footer);
+}
+
+header .Menu-Desktop .logo img{
+    transform: scaleX(-1); 
+    width: 1.5rem;
+    margin-left: 2rem;
+}
+
+header .Menu-Desktop .Desktop-Nav ul {
+    display: flex;
+    font-size: 1.4rem;
+}
+
+header .Menu-Desktop .Desktop-Nav ul li a{
+    margin-right: 2rem;
+    color: var( --text-color);
+}
+
+header .Menu-Desktop .Desktop-Nav ul li a:hover{
+    color: var(--color-destaque);
+}
+
+/* Menu Mobile */

@@ -1,0 +1,15 @@
+body {
+    background-color: var(--bg-color);
+    margin: 0;
+    font-family: var(--font-text);
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: var(--font-title);
+}
+
+a,ul,li {
+    list-style: none;
+    text-decoration: none;
+    font-family: var(--font-destaque);
+}
