@@ -5,31 +5,109 @@ header .Menu-Desktop {
   top: 0;
   right: 0;
   left: 0;
-  display: flex;
+  display: none;
   align-items: center;
   padding: 0.3rem;
   justify-content: space-between;
   background-color: var(--bg-color-menu_footer);
 }
 
-header .Menu-Desktop .logo img{
-    transform: scaleX(-1); 
-    width: 1.5rem;
-    margin-left: 2rem;
+header .Menu-Desktop .logo img {
+  transform: scaleX(-1);
+  width: 1.5rem;
+  margin-left: 2rem;
 }
 
 header .Menu-Desktop .Desktop-Nav ul {
-    display: flex;
-    font-size: 1.4rem;
+  display: flex;
+  font-size: 1.4rem;
 }
 
-header .Menu-Desktop .Desktop-Nav ul li a{
-    margin-right: 2rem;
-    color: var( --text-color);
+header .Menu-Desktop .Desktop-Nav ul li a {
+  margin-right: 2rem;
 }
 
-header .Menu-Desktop .Desktop-Nav ul li a:hover{
-    color: var(--color-destaque);
+header .Menu-Desktop .Desktop-Nav ul li a:hover {
+  color: var(--color-destaque);
 }
 
 /* Menu Mobile */
+
+header .Menu-Mobile .menu-Icon {
+  max-width: 50vw;
+  position: fixed;
+  z-index: 10;
+}
+
+header .Menu-Mobile .menu-Icon .mIcon {
+  display: flex;
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+header .Menu-Mobile .menu-Icon .mIcon #barraMenu {
+  display: block;
+  width: 1.5rem;
+  border-top: 0.2rem solid;
+}
+
+#barraMenu::after,
+#barraMenu::before {
+  content: "";
+  display: block;
+  position: relative;
+  width: 1.5rem;
+  height: 0.2rem;
+  margin-top: 0.25rem;
+  transition: 0.3s;
+  background-color: currentColor;
+}
+
+#Mobile.ativo #barraMenu {
+ border-top-color: transparent;
+}
+
+#Mobile.ativo #barraMenu::after {
+  transform: rotate(-135deg);
+  top:-0.45rem
+ }
+
+ #Mobile.ativo #barraMenu::before {
+  transform: rotate(135deg);
+ }
+
+header .Menu-Mobile .area_menu {
+  display: flex;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
+
+header .Menu-Mobile .area_menu #Menu-Open {
+  width: 0vw;
+  background-color: var(--bg-color-menu_footer);
+  overflow: hidden;
+}
+
+header .Menu-Mobile .area_menu #Menu-Open ul {
+  margin: 3rem 0;
+  padding: 0;
+}
+
+header .Menu-Mobile .area_menu #Menu-Open ul li {
+  margin-top: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  header .Menu-Mobile {
+    display: none;
+  }
+  header .Menu-Desktop {
+    display: flex;
+  }
+}

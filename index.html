@@ -5,30 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/x-icon" href="src/assets/icons/favicon.ico" />
     <title>Espaço Du Corte</title>
-    <link rel="stylesheet" href="src/styles/variaveis.css">
-    <link rel="stylesheet" href="src/styles/global.css">
+    <script src="src/scripts/mobile.js"></script>
+    <link rel="stylesheet" href="src/styles/variaveis.css" />
+    <link rel="stylesheet" href="src/styles/global.css" />
     <link rel="stylesheet" href="src/styles/menu.css" />
   </head>
   <body>
     <header>
       <div class="Menu-Desktop">
         <div class="logo">
-          <img src="src/assets/images/logo.gif" alt="Logo" />
+          <a href=""><img src="src/assets/images/logo.gif" alt="Logo" /></a>
         </div>
         <nav class="Desktop-Nav">
           <ul>
             <li>
-              <a href="home.html">Section 1</a>
+              <a href="">Section 1</a>
             </li>
             <li>
-              <a href="biografia.html">Section 2</a>
+              <a href="">Section 2</a>
             </li>
             <li>
-              <a href="obras.html">Section 3</a>
+              <a href="">Section 3</a>
             </li>
-            <li><a href="sobre.html">Section 4</a></li>
+            <li>
+              <a href="">Section 4</a>
+            </li>
           </ul>
         </nav>
+      </div>
+      <div id="Mobile" class="Menu-Mobile">
+        <div class="menu-Icon">
+          <button class="mIcon" onclick="menuShow()">
+            <span id="barraMenu"></span>
+          </button>
+        </div>
+        <div class="area_menu">
+          <nav id="Menu-Open">
+            <ul>
+              <li>
+                <a href="">Section 1</a>
+              </li>
+              <li>
+                <a href="">Section 2</a>
+              </li>
+              <li>
+                <a href="">Section 3</a>
+              </li>
+              <li>
+                <a href="">Section 4</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </header>
 
