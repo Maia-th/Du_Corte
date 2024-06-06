@@ -9,26 +9,30 @@
     <link rel="stylesheet" href="src/styles/variaveis.css" />
     <link rel="stylesheet" href="src/styles/global.css" />
     <link rel="stylesheet" href="src/styles/menu.css" />
+    <link rel="stylesheet" href="src/styles/footer.css">
   </head>
   <body>
     <header>
       <div class="Menu-Desktop">
         <div class="logo">
-          <a href=""><img src="src/assets/images/logo.gif" alt="Logo" /></a>
+          <a href="#Inicio"><img src="src/assets/images/logo.gif" alt="Logo" /></a>
         </div>
         <nav class="Desktop-Nav">
           <ul>
             <li>
-              <a href="">Section 1</a>
+              <a href="#Inicio">Início</a>
             </li>
             <li>
-              <a href="">Section 2</a>
+              <a href="#Historia">História</a>
             </li>
             <li>
-              <a href="">Section 3</a>
+              <a href="#Equipe">Equipe</a>
             </li>
             <li>
-              <a href="">Section 4</a>
+              <a href="#Servicos">Serviços</a>
+            </li>
+            <li>
+              <a href="#Contatos">Contatos</a>
             </li>
           </ul>
         </nav>
@@ -36,7 +40,7 @@
       <div id="Mobile" class="Menu-Mobile">
         <div class="menu-Icon">
           <div class="logo">
-            <a href=""><img src="src/assets/images/logo.gif" alt="Logo" /></a>
+            <a href="#Inicio"><img src="src/assets/images/logo.gif" alt="Logo" /></a>
           </div>
           <button class="mIcon" onclick="menuShow()">
             <span id="barraMenu"></span>
@@ -46,25 +50,36 @@
           <nav id="Menu-Open">
             <ul>
               <li>
-                <a href="" onclick="menuShow()">Section 1</a>
+                <a href="#Inicio" onclick="menuShow()">Início</a>
               </li>
               <li>
-                <a href="" onclick="menuShow()">Section 2</a>
+                <a href="#Historia" onclick="menuShow()">História</a>
               </li>
               <li>
-                <a href="" onclick="menuShow()">Section 3</a>
+                <a href="#Equipe" onclick="menuShow()">Equipe</a>
               </li>
               <li>
-                <a href="" onclick="menuShow()">Section 4</a>
+                <a href="#Servicos" onclick="menuShow()">Serviços</a>
+              </li>
+              <li>
+                <a href="#Contatos" onclick="menuShow()">Contatos</a>
               </li>
             </ul>
           </nav>
         </div>
       </div>
     </header>
+    
+    <main>
+      <section class="Inicio"></section>
 
-    <main></main>
+      <section class="Historia"></section>
 
-    <footer></footer>
+      <section class="Equipe"></section>
+
+      <section class="Servicos"></section>
+    </main>
+
+    <footer class="Contatos"></footer>
   </body>
 </html>
