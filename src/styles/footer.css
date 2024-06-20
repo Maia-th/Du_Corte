@@ -1,0 +1,23 @@
+footer {
+  padding: 2rem;
+  background-color: var(--bg-color-menu_footer);
+  color: var(--text-color);
+  text-align: center;
+}
+
+footer h2 {
+  margin-bottom: 1rem;
+}
+
+footer p {
+  margin-bottom: 0.5rem;
+}
+
+footer a {
+  color: var(--color-destaque);
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
