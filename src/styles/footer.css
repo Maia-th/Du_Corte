@@ -2,7 +2,13 @@ footer {
   padding: 2rem;
   background-color: var(--bg-color-menu_footer);
   color: var(--text-color);
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+footer div {
+  margin: 1rem;
+  max-width: 20rem;
 }
 
 footer h2 {

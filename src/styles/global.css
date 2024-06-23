@@ -15,3 +15,8 @@ a,ul,li {
     color: var(--text-color);
     font-family: var(--font-destaque);
 }
+
+body main {
+    margin: auto;
+    max-width: 30rem;
+}
