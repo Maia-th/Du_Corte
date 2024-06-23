@@ -7,8 +7,8 @@ footer {
   flex-wrap: wrap;
 }
 footer div {
-  margin: 1rem;
-  max-width: 20rem;
+  margin: 0 1rem;
+  width: 20rem;
 }
 
 footer h2 {
