@@ -17,7 +17,13 @@ a,ul,li {
 }
 
 body main {
-    margin: auto;
     display: flex;
     flex-direction: column;
+}
+
+body main .CentralizaSection {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 80%;
 }

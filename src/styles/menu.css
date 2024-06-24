@@ -1,8 +1,4 @@
 /* Menu Desktop */
-header{
-  height: 5.4rem;
-}
-
 header .Menu-Desktop {
   position: fixed;
   top: 0;
@@ -35,6 +31,9 @@ header .Menu-Desktop .Desktop-Nav ul li a:hover {
 }
 
 /* Menu Mobile */
+header{
+  height: 3.1rem;
+}
 
 header .Menu-Mobile .menu-Icon {
   width: 100%;
@@ -126,5 +125,8 @@ header .Menu-Mobile .area_menu #Menu-Open ul li {
   }
   header .Menu-Desktop {
     display: flex;
+  }
+  header{
+    height: 5.4rem;
   }
 }

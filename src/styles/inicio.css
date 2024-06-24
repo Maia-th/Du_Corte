@@ -10,24 +10,26 @@ main .Inicio {
   background-size: cover;
   background-position: bottom;
 }
+main .Inicio div {
+  align-items: center;
+}
 
 main .Inicio h1 {
   margin-top: 0;
   font-size: 3rem;
-  max-width: 80%;
   text-align: center;
 }
 
 main .Inicio h1 span {
   display: block;
   font-size: 2rem;
-  text-align: center;
 }
 
 main .Inicio .bn47 {
   position: relative;
   padding: 1rem 2rem 0.5rem 2.5rem;
   font-size: 1.4rem;
+  max-width: 10rem;
   color: var(--font-text);
   border: 0.15rem solid #ffffff;
   border-radius: 1rem;
