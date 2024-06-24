@@ -18,5 +18,6 @@ a,ul,li {
 
 body main {
     margin: auto;
-    max-width: 30rem;
+    display: flex;
+    flex-direction: column;
 }
