@@ -1,0 +1,90 @@
+main .Servicos {
+  display: flex;
+  flex-direction: column;
+}
+main .Servicos h2 {
+  font-size: 2.5rem;
+}
+
+main .Servicos .Barbearia {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+}
+main .Servicos .Barbearia .CardServicos {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 2rem;
+  margin: 1rem;
+  background-color: var(--color-destaque-section);
+}
+
+main .Servicos .Barbearia figure {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+main .Servicos .Barbearia figure figcaption {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+}
+main .Servicos .Curso {
+  max-width: 70%;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
+main .Servicos .Curso h3 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+main .Servicos .Curso p {
+  text-indent: 0.5rem;
+  font-size: 1rem;
+}
+
+details {
+  margin-bottom: 1rem;
+}
+
+summary {
+  cursor: pointer;
+  color: var(--text-color);
+  font-size: 1.2rem;
+  font-weight: bold;
+  outline: none;
+}
+
+.content {
+  padding: 0rem 1rem 0rem 1rem;
+}
+
+.content ul li {
+  list-style: inside;
+  padding-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.bn7 {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: var(--text-color);
+  padding: 0.3em 1.2em;
+  border-radius: 2rem;
+  font-size: 1.2rem;
+  color: var(--color-destaque);
+}
+
+main .Servicos .Curso .btnInscrevase {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
