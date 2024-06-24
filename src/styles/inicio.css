@@ -1,32 +1,32 @@
-main .Inicio {
+main #Inicio {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   min-height: 30dvh;
-  padding: 2.5rem 0;
+  padding: 3rem 0;
   background-image: url(../assets/images/bg_Inicio.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
 }
 
-main .Inicio div {
+main #Inicio div {
   align-items: center;
 }
 
-main .Inicio h1 {
+main #Inicio h1 {
   margin-top: 0;
   font-size: 3rem;
   text-align: center;
 }
 
-main .Inicio h1 span {
+main #Inicio h1 span {
   display: block;
   font-size: 2rem;
 }
 
-main .Inicio .bn47 {
+main #Inicio .bn47 {
   position: relative;
   padding: 1rem 2rem 0.5rem 2.5rem;
   font-size: 1.4rem;
@@ -38,7 +38,7 @@ main .Inicio .bn47 {
   transition: padding 0.3s ease-in-out;
 }
 
-main .Inicio .bn47:before {
+main #Inicio .bn47:before {
   content: "";
   position: absolute;
   top: 0.5rem;
@@ -54,11 +54,11 @@ main .Inicio .bn47:before {
   transition: all 0.3s ease-in-out;
 }
 
-main .Inicio .bn47:hover {
+main #Inicio .bn47:hover {
   padding: 0.75rem 2.25rem;
 }
 
-main .Inicio .bn47:hover:before {
+main #Inicio .bn47:hover:before {
   top: 0;
   left: 0;
 }
