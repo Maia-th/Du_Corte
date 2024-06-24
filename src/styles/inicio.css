@@ -4,7 +4,7 @@ main .Inicio {
   align-items: center;
   justify-content: center;
   min-height: 30dvh;
-  padding: 1rem 0;
+  padding: 2.5rem 0;
   background-image: url(../assets/images/bg_Inicio.png);
   background-repeat: no-repeat;
   background-size: cover;
