@@ -5,10 +5,11 @@ main #Inicio {
   justify-content: center;
   min-height: 30dvh;
   padding: 3rem 0;
+  background-color: var(--color-destaque-section);
   background-image: url(../assets/images/bg.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
 }
 
 main #Inicio div {
@@ -33,6 +34,7 @@ main #Inicio .bn47 {
   max-width: 10rem;
   color: var(--font-text);
   border: 0.15rem solid #ffffff;
+  z-index: 6;
   border-radius: 1rem;
   -webkit-transition: padding 0.3s ease-in-out;
   transition: padding 0.3s ease-in-out;
