@@ -1,7 +1,7 @@
 main #Servicos {
   display: flex;
   flex-direction: column;
-  padding-top: 4rem;
+  padding-top: 3rem;
 }
 main #Servicos h2 {
   font-size: 2.5rem;
@@ -88,4 +88,22 @@ main #Servicos .Curso .btnInscrevase {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width: 999px) {
+  main #Servicos .Curso {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 359px) {
+  main #Servicos h2 {
+    font-size: 1.5rem;
+  }
+  main #Servicos .Curso h3 {
+    font-size: 1.2rem;
+  }
+  .bn7 {
+    font-size: 1rem;
+  }
 }
