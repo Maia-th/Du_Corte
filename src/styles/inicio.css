@@ -5,7 +5,7 @@ main #Inicio {
   justify-content: center;
   min-height: 30dvh;
   padding: 3rem 0;
-  background-image: url(../assets/images/bg_Inicio.png);
+  background-image: url(../assets/images/bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
