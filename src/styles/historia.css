@@ -1,0 +1,45 @@
+main #Historia {
+  display: flex;
+  flex-direction: column;
+  padding-top: 3rem;
+}
+
+main #Historia h2 {
+  font-size: 2.5rem;
+}
+
+main #Historia .Curso h3 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+main #Historia p {
+  text-indent: 0.5rem;
+  font-size: 1rem;
+}
+
+main #Historia .Jonathan, main #Historia .ducorte  {
+  display: flex;
+  max-width: 85%;
+  align-items: center;
+  justify-content: center;
+  margin: 1.5rem auto;
+}
+
+main #Historia .Jonathan .fotoPerfil {
+  margin-right: 4rem;
+  transform: rotate(-15deg);
+  z-index: -1;
+}
+
+main #Historia .ducorte {
+    margin-top: 0;
+}
+main #Historia .ducorte .histDuCorte {
+    max-width: 70%;
+    margin-right: 2rem;
+}
+
+main #Historia .ducorte .avaliacoes img {
+    border-radius: 0.5rem;
+}
