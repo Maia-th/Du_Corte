@@ -101,7 +101,7 @@
           </h3>
           <div class="Barbearia">
             <div class="CardServicos">
-              <figure>
+              <figure class="BarbServ">
                 <img
                   src="src/assets/icons/tesoura.png"
                   width="90"
@@ -109,9 +109,37 @@
                 />
                 <figcaption>CORTE</figcaption>
               </figure>
+              <div id="modal1" class="modal">
+                <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <div class="tabelaPrecos">
+                    <table>
+                      <thead>
+                        <tr>
+                          <th colspan="2">Cortes</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Degradê ou Disfarçado</td>
+                          <td>R$ 30,00</td>
+                        </tr>
+                        <tr>
+                          <td>Social</td>
+                          <td>R$ 25,00</td>
+                        </tr>
+                        <tr>
+                          <td>Sobrancelha</td>
+                          <td>R$ 10,00</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
             </div>
             <div class="CardServicos">
-              <figure>
+              <figure class="BarbServ">
                 <img
                   src="src/assets/icons/corte-de-barba.png"
                   width="90"
@@ -119,9 +147,37 @@
                 />
                 <figcaption>BARBAS</figcaption>
               </figure>
+              <div id="modal2" class="modal">
+                <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <div class="tabelaPrecos">
+                    <table>
+                      <thead>
+                        <tr>
+                          <th colspan="2">Barbas</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Barba Desenhada</td>
+                          <td>R$ 25,00</td>
+                        </tr>
+                        <tr>
+                          <td>Barba Total (Raspada)</td>
+                          <td>R$ 25,00</td>
+                        </tr>
+                        <tr>
+                          <td>Bigodinho Fininho</td>
+                          <td>R$ 5,00</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
             </div>
             <div class="CardServicos">
-              <figure>
+              <figure class="BarbServ">
                 <img
                   src="src/assets/icons/chemicals.png"
                   width="90"
@@ -129,9 +185,44 @@
                 />
                 <figcaption>QUÍMICOS</figcaption>
               </figure>
+              <div id="modal3" class="modal">
+                <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <div class="tabelaPrecos">
+                    <table>
+                      <thead>
+                        <tr>
+                          <th colspan="2">Químicos</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Relaxamento*</td>
+                          <td>R$ 30,00</td>
+                        </tr>
+                        <tr>
+                          <td>Pigmentação*</td>
+                          <td>R$ 25,00</td>
+                        </tr>
+                        <tr>
+                          <td>Luzes ou Reflexos</td>
+                          <td>R$ 50,00</td>
+                        </tr>
+                      </tbody>
+                      <tfoot>
+                        <tr>
+                          <td colspan="2">
+                            * Variável de acordo com o tamanho do cabelo
+                          </td>
+                        </tr>
+                      </tfoot>
+                    </table>
+                  </div>
+                </div>
+              </div>
             </div>
             <div class="CardServicos">
-              <figure>
+              <figure class="BarbServ">
                 <img
                   src="src/assets/icons/hair-cut-tool.png"
                   width="90"
@@ -139,6 +230,48 @@
                 />
                 <figcaption>COMBOS</figcaption>
               </figure>
+              <div id="modal4" class="modal">
+                <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <div class="tabelaPrecos">
+                    <table>
+                      <thead>
+                        <tr>
+                          <th colspan="2">Combos</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>
+                            Corte + Barba Pigmentada + Sobrancelha + Pigmentação
+                          </td>
+                          <td>R$ 100,00</td>
+                        </tr>
+                        <tr>
+                          <td>Nevoa + Corte + Sobrancelha</td>
+                          <td>R$ 150,00</td>
+                        </tr>
+                        <tr>
+                          <td>Corte + Barba + Sobrancelha</td>
+                          <td>R$ 60,00</td>
+                        </tr>
+                        <tr>
+                          <td>Corte + Barba</td>
+                          <td>R$ 55,00</td>
+                        </tr>
+                        <tr>
+                          <td>Corte + Pigmentação</td>
+                          <td>R$ 55,00</td>
+                        </tr>
+                        <tr>
+                          <td>Pezinho</td>
+                          <td>R$ 10,00</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </article>
@@ -491,5 +624,6 @@
         </p>
       </div>
     </footer>
+    <script src="src/scripts/modal.js"></script>
   </body>
 </html>

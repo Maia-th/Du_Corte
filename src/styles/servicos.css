@@ -30,6 +30,7 @@ main #Servicos .Barbearia .CardServicos {
 }
 
 main #Servicos .Barbearia figure {
+  cursor: pointer;
   display: flex;
   flex-direction: column;
   margin: 0;
@@ -96,6 +97,65 @@ main #Servicos .Curso .btnInscrevase {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 0.1rem solid var(--text-color);
+  padding: 0.6rem;
+  text-align: left;
+}
+
+th {
+  text-align: center;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 7;
+  left: 0;
+  top: 0;
+  width: 100dvw;
+  height: 100dvh;
+  overflow: auto;
+  background-color: transparent;
+}
+
+.modal-content {
+  position: relative;
+  margin: 15% auto 1rem auto;
+  padding: 3rem 1rem;
+  border-radius: 2rem;
+  width: 35rem;
+  max-width: 80%;
+  background-color: var(--color-destaque-section);
+  align-items: center;
+}
+
+.modal-content .tabelaPrecos {
+  display: flex;
+  justify-content: center;
+}
+
+.close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 1rem;
+  color: #aaa;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.close:hover {
+  color: var(--text-color);
+  text-decoration: none;
+  cursor: pointer;
 }
 
 @media (max-width: 999px) {
