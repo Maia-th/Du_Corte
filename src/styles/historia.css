@@ -35,6 +35,7 @@ main #Historia .Jonathan .fotoPerfil {
 main #Historia .ducorte {
     margin-top: 0;
 }
+
 main #Historia .ducorte .histDuCorte {
     max-width: 70%;
     margin-right: 2rem;
@@ -42,4 +43,52 @@ main #Historia .ducorte .histDuCorte {
 
 main #Historia .ducorte .avaliacoes img {
     border-radius: 0.5rem;
+}
+
+@media (max-width: 1199px) {
+  main #Historia .Jonathan .miniBiografia{
+    max-width: 100%;
+  }
+
+  main #Historia .Jonathan, main #Historia .ducorte  {
+    flex-wrap: wrap;
+  }
+  main #Historia .ducorte .histDuCorte {
+    margin-right: 0;
+    max-width: 100%;
+}
+
+main #Historia .Jonathan .fotoPerfil {
+  margin-right: 0rem;
+  transform: rotate(0);
+}
+
+main #Historia .ducorte .avaliacoes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 100%;
+  margin: auto;
+}
+
+main #Historia .ducorte .avaliacoes img {
+  width: 300px;
+  margin: 0.5rem;
+}
+}
+
+@media (max-width: 541px) {
+  main #Historia h2 {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 359px) {
+  main #Historia h2 {
+    font-size: 1.5rem;
+  }
+
+  main #Historia h3{
+    font-size: 1.2rem;
+  }
 }
