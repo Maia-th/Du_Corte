@@ -108,6 +108,7 @@ td {
   border: 0.1rem solid var(--text-color);
   padding: 0.6rem;
   text-align: left;
+  min-width: 5rem;
 }
 
 th {
@@ -130,6 +131,7 @@ th {
   position: relative;
   margin: 15% auto 1rem auto;
   padding: 3rem 1rem;
+  border: 0.3rem solid var(--text-color);
   border-radius: 2rem;
   width: 35rem;
   max-width: 80%;
