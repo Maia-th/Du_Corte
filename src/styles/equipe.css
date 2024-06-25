@@ -8,6 +8,12 @@ main #Equipe h2 {
   font-size: 2.5rem;
 }
 
+main #Equipe h3 {
+  font-size: 1.5rem;
+  margin-top: 0;
+  text-align: center;
+}
+
 main #Equipe .equipeCards {
   display: flex;
   flex-direction: row;

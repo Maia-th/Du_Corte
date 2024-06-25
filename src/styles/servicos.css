@@ -3,8 +3,15 @@ main #Servicos {
   flex-direction: column;
   padding-top: 3rem;
 }
+
 main #Servicos h2 {
   font-size: 2.5rem;
+}
+
+main #Servicos .h3Servicos {
+  font-size: 1.5rem;
+  margin-top: 0;
+  text-align: center;
 }
 
 main #Servicos .Barbearia {
@@ -78,10 +85,11 @@ summary {
   outline: none;
   border: none;
   background-color: var(--text-color);
-  padding: 0.3em 1.2em;
+  padding: 0.3rem 1.2rem;
   border-radius: 2rem;
   font-size: 1.2rem;
   color: var(--color-destaque);
+  margin-top: 1rem;
 }
 
 main #Servicos .Curso .btnInscrevase {
