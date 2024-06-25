@@ -9,6 +9,7 @@ header .Menu-Desktop {
   padding: 0.3rem;
   justify-content: space-between;
   background-color: var(--bg-color-menu_footer);
+  z-index: 7;
 }
 
 header .Menu-Desktop .logo img {
@@ -100,7 +101,7 @@ header .Menu-Mobile .area_menu {
   text-align: center;
   top: 0;
   left: 0;
-  z-index: 5;
+  z-index: 7;
   justify-content: end;
 }
 

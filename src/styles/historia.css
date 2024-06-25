@@ -81,6 +81,9 @@ main #Historia .ducorte .avaliacoes img {
   main #Historia h2 {
     font-size: 1.6rem;
   }
+  main #Historia h3{
+    font-size: 1.3rem;
+  }
 }
 
 @media (max-width: 359px) {
