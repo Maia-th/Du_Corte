@@ -86,9 +86,9 @@ summary {
   outline: none;
   border: none;
   background-color: var(--text-color);
-  padding: 0.3rem 1.2rem;
+  padding: 0.3rem 1.1rem;
   border-radius: 2rem;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   color: var(--color-destaque);
   margin-top: 1rem;
 }
