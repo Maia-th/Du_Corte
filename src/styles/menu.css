@@ -107,6 +107,7 @@ header .Menu-Mobile .area_menu {
 }
 
 header .Menu-Mobile .area_menu #Menu-Open {
+  display: none;
   width: 0vw;
   background-color: var(--bg-color-menu_footer);
   overflow: hidden;
