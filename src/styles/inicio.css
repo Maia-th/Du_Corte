@@ -76,7 +76,7 @@ main #Inicio .bn47:hover:before {
 
 @media (max-width: 484px) {
   main #Inicio {
-    min-height: 60dvh;
+    min-height: 60vh;
   }
   main #Inicio h1 {
     font-size: 1.9rem;
