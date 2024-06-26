@@ -167,7 +167,6 @@ th {
   position: relative;
   margin: 15% auto 1rem auto;
   padding: 3rem 1rem;
-  border: 0.3rem solid var(--text-color);
   border-radius: 2rem;
   width: 35rem;
   max-width: 80%;
