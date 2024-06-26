@@ -8,11 +8,10 @@
   /*Cores*/
 
   --text-color: #FFFFFF;
-  --text-color-dark: #0D090A;
   --color-destaque: #D94625;
-  --color-destaque-section: #736345;
-  --bg-color: #8C7F56;
-  --bg-color-menu_footer: #403527;
+  --color-destaque-section: #1F1F1F;
+  --bg-color: #1A1A1A;
+  --bg-color-menu_footer: #111111;
 }
 
 @font-face {
