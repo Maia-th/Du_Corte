@@ -32,7 +32,7 @@ header .Menu-Desktop .Desktop-Nav ul li a:hover {
 }
 
 /* Menu Mobile */
-header{
+header {
   height: 3rem;
 }
 
@@ -83,17 +83,17 @@ header .Menu-Mobile .menu-Icon .mIcon #barraMenu {
 }
 
 #Mobile.ativo #barraMenu {
- border-top-color: transparent;
+  border-top-color: transparent;
 }
 
 #Mobile.ativo #barraMenu::after {
   transform: rotate(-135deg);
-  top:-0.45rem
- }
+  top: -0.45rem;
+}
 
- #Mobile.ativo #barraMenu::before {
+#Mobile.ativo #barraMenu::before {
   transform: rotate(135deg);
- }
+}
 
 header .Menu-Mobile .area_menu {
   display: flex;
@@ -128,7 +128,7 @@ header .Menu-Mobile .area_menu #Menu-Open ul li {
   header .Menu-Desktop {
     display: flex;
   }
-  header{
+  header {
     height: 4.8rem;
   }
 }
