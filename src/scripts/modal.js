@@ -22,6 +22,7 @@ closeBtns.forEach(function (btn) {
 
 // Fecha os modais se o usuário clicar fora deles
 window.onclick = function (event) {
+  let menuMobile = document.getElementById("Mobile");
   modais.forEach(function (modal) {
     if (event.target == modal) {
       modal.style.display = "none";
