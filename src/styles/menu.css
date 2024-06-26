@@ -33,7 +33,7 @@ header .Menu-Desktop .Desktop-Nav ul li a:hover {
 
 /* Menu Mobile */
 header{
-  height: 3.1rem;
+  height: 3rem;
 }
 
 header .Menu-Mobile .menu-Icon {
@@ -51,6 +51,7 @@ header .Menu-Mobile .menu-Icon .logo img {
   transform: scaleX(-1);
   width: 1rem;
   margin-left: 2rem;
+  margin-top: 0.2rem;
 }
 
 header .Menu-Mobile .menu-Icon .mIcon {

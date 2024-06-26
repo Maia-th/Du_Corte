@@ -89,11 +89,11 @@ main #Inicio .bn47:hover:before {
   }
   main #Inicio .bn47 {
     padding: 0.5rem 0.7rem;
-    font-size: 1.3rem;
-    background-color:var(--color-destaque);  
+    font-size: 1.3rem; 
   }
 
   main #Inicio .bn47:before {
-    display: none;
+  top: 0;
+  left: 0;
   }
 }
