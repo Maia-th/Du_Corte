@@ -54,13 +54,12 @@ main #Servicos .Curso {
 
 .modal-content {
   position: relative;
-  margin: 15% auto 1rem auto;
+  margin: 25dvh auto 1rem auto;
   padding: 3rem 1rem;
   border-radius: 2rem;
   width: 35rem;
   max-width: 80%;
   background-color: var(--color-destaque-section);
-  align-items: center;
 }
 
 .modal-content .tabelaPrecos {
