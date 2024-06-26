@@ -5,7 +5,9 @@ function menuShow() {
   
   if (menuArea.style.width == "50vw") {
     menuArea.style.width = "0vh";
+    menuArea.style.display = "none";
   } else {
     menuArea.style.width = "50vw";
+    menuArea.style.display = "block";
   }
 }
