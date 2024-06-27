@@ -14,17 +14,17 @@
 <img alt="HTML, CSS & Js" src="https://skillicons.dev/icons?i=html,css,js">
 </div>
 
-## Equipe Responsável Pelo Projeto:
+## Principais Recursos:
 
-- ### <a href=""><img width="20" alt="Linkedin" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg"></a>  Bernardo Guerra
-
-- ### <a href=""><img width="20" alt="Linkedin" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg"></a>  Julio Couto
-
-- ### <a href=""><img width="20" alt="Linkedin" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg"></a>  Thiago Maia
+- Menu hamburguer para o mobile.
+- Responsividade, adequando o site para diferentes tamanhos de telas.
+- Botões com animações.
+- Alguns metadados adicionado no head, além de diferentes tamanhos de favicon.
+- Criação de lista suspensa usando a tags details e de modais com Javascript para evitar grandes blocos textuais em sequência, melhorando assim a experiência do usuário.
 
 ---
 
 <div align="center">
   
-### <a href=""> Acesse aqui para mais informações !</a>
+#### DISPONIVEL EM: <a href="https://du-corte.vercel.app/">DEPLOY</a>
 </div>
