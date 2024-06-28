@@ -69,7 +69,7 @@ main #Equipe {
 
 @media (max-width: 551px) {
   footer .info article {
-    width: 90%;
+    width: 100%;
   }
 }
 

@@ -40,16 +40,17 @@ footer .info .redesSociais a {
   margin-top: 0.5rem;
 }
 
-footer .endereco, footer .creditos {
+footer .endereco,
+footer .creditos {
   display: flex;
   justify-content: center;
 }
 
-footer .endereco article {
+footer .endereco article,
+footer .creditos {
   margin: 1rem;
-  max-width: 80%;
 }
 
 footer .creditos {
-  margin-top: 1rem;
+  text-align: center;
 }

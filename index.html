@@ -1,730 +1,575 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- SEO Meta Tags -->
-    <meta
-      name="google-site-verification"
-      content="KUdllg3h0Hm4QvB6X0fYdoPf1axcXtwNsGG1BEC2pD8"
-    />
-    <meta
-      name="description"
-      content="Espaço Du Corte - Barbearia em Itabira especializada em cortes de cabelo, barba, tratamentos químicos e cursos de barbeiro. Agende seu horário e transforme seu estilo hoje mesmo!"
-    />
-    <meta
-      name="keywords"
-      content="barbearia, corte de cabelo, barba, cursos de barbeiro, Itabira, Água Fresca"
-    />
-    <meta name="robots" content="index, follow" />
-    <meta name="author" content="Espaço Du Corte" />
-    <meta name="theme-color" content="#111111" />
-    <meta name="msapplication-TileColor" content="#d94625" />
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Open Graph Meta Tags -->
-    <meta property="og:type" content="website" />
-    <meta
-      property="og:title"
-      content="Espaço Du Corte - Barbearia em Itabira"
-    />
-    <meta
-      property="og:description"
-      content="Onde estilo e qualidade se encontram. Agende seu horário hoje mesmo!"
-    />
-    <meta
-      property="og:image"
-      content="https://du-corte.vercel.app/src/assets/images/logoDuCorte.jpg"
-    />
-    <meta property="og:url" content="https://du-corte.vercel.app" />
-    <meta property="og:site_name" content="Espaço Du Corte" />
-    <meta property="og:locale" content="pt_BR" />
+  <!-- SEO Meta Tags -->
+  <meta name="google-site-verification" content="KUdllg3h0Hm4QvB6X0fYdoPf1axcXtwNsGG1BEC2pD8">
+  <meta name="description"
+    content="Espaço Du Corte - Barbearia em Itabira especializada em cortes de cabelo, barba, tratamentos químicos e cursos de barbeiro. Agende seu horário e transforme seu estilo hoje mesmo!">
+  <meta name="keywords" content="barbearia, corte de cabelo, barba, cursos de barbeiro, Itabira, Água Fresca">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Espaço Du Corte">
+  <meta name="theme-color" content="#111111">
+  <meta name="msapplication-TileColor" content="#d94625">
 
-    <!-- Twitter Meta Tags -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta
-      name="twitter:title"
-      content="Espaço Du Corte - Barbearia em Itabira"
-    />
-    <meta
-      name="twitter:description"
-      content="Onde estilo e qualidade se encontram. Agende seu horário hoje mesmo!"
-    />
-    <meta
-      name="twitter:image"
-      content="https://du-corte.vercel.app/src/assets/images/logoDuCorte.jpg"
-    />
-    <meta name="twitter:url" content="https://du-corte.vercel.app" />
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Espaço Du Corte - Barbearia em Itabira">
+  <meta property="og:description" content="Onde estilo e qualidade se encontram. Agende seu horário hoje mesmo!">
+  <meta property="og:image" content="https://du-corte.vercel.app/src/assets/images/logoDuCorte.jpg">
+  <meta property="og:url" content="https://du-corte.vercel.app">
+  <meta property="og:site_name" content="Espaço Du Corte">
+  <meta property="og:locale" content="pt_BR">
 
-    <!-- Favicon -->
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="src/assets/icons/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="src/assets/icons/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="src/assets/icons/favicon-16x16.png"
-    />
-    <link
-      rel="mask-icon"
-      href="src/assets/icons/safari-pinned-tab.svg"
-      color="#5bbad5"
-    />
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Espaço Du Corte - Barbearia em Itabira">
+  <meta name="twitter:description" content="Onde estilo e qualidade se encontram. Agende seu horário hoje mesmo!">
+  <meta name="twitter:image" content="https://du-corte.vercel.app/src/assets/images/logoDuCorte.jpg">
+  <meta name="twitter:url" content="https://du-corte.vercel.app">
 
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="src/styles/variaveis.css" />
-    <link rel="stylesheet" href="src/styles/global.css" />
-    <link rel="stylesheet" href="src/styles/menu.css" />
-    <link rel="stylesheet" href="src/styles/inicio.css" />
-    <link rel="stylesheet" href="src/styles/servicos.css" />
-    <link rel="stylesheet" href="src/styles/historia.css" />
-    <link rel="stylesheet" href="src/styles/equipe.css" />
-    <link rel="stylesheet" href="src/styles/footer.css" />
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="src/assets/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="src/assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="src/assets/icons/favicon-16x16.png">
+  <link rel="mask-icon" href="src/assets/icons/safari-pinned-tab.svg" color="#5bbad5">
 
-    <link rel="manifest" href="site.webmanifest" />
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="src/styles/variaveis.css">
+  <link rel="stylesheet" href="src/styles/global.css">
+  <link rel="stylesheet" href="src/styles/menu.css">
+  <link rel="stylesheet" href="src/styles/inicio.css">
+  <link rel="stylesheet" href="src/styles/servicos.css">
+  <link rel="stylesheet" href="src/styles/historia.css">
+  <link rel="stylesheet" href="src/styles/equipe.css">
+  <link rel="stylesheet" href="src/styles/footer.css">
 
-    <!-- Scripts -->
-    <script src="src/scripts/mobile.js" defer></script>
-    <script src="src/scripts/modal.js" defer></script>
+  <link rel="manifest" href="site.webmanifest">
 
-    <title>Espaço Du Corte - Barbearia em Itabira</title>
-  </head>
+  <!-- Scripts -->
+  <script src="src/scripts/mobile.js" defer></script>
+  <script src="src/scripts/modal.js" defer></script>
 
-  <body>
-    <header id="Home">
-      <div class="Menu-Desktop">
+  <title>Espaço Du Corte - Barbearia em Itabira</title>
+</head>
+
+<body>
+  <header id="Home">
+    <div class="Menu-Desktop">
+      <div class="logo">
+        <a href="#Home"><img src="src/assets/images/logo.gif" alt="Logo"></a>
+      </div>
+      <nav class="Desktop-Nav">
+        <ul>
+          <li>
+            <a href="#Home">Início</a>
+          </li>
+          <li>
+            <a href="#Servicos">Serviços</a>
+          </li>
+          <li>
+            <a href="#Historia">História</a>
+          </li>
+          <li>
+            <a href="#Equipe">Equipe</a>
+          </li>
+          <li>
+            <a href="#Contatos">Contatos</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div id="Mobile" class="Menu-Mobile">
+      <div class="menu-Icon">
         <div class="logo">
-          <a href="#Home"
-            ><img src="src/assets/images/logo.gif" alt="Logo"
-          /></a>
+          <a href="#Home"><img src="src/assets/images/logo.gif" alt="Logo"></a>
         </div>
-        <nav class="Desktop-Nav">
+        <button class="mIcon" onclick="menuShow()">
+          <span id="barraMenu"></span>
+        </button>
+      </div>
+      <div class="area_menu">
+        <nav id="Menu-Open">
           <ul>
             <li>
-              <a href="#Home">Início</a>
+              <a href="#Home" onclick="menuShow()">Início</a>
             </li>
             <li>
-              <a href="#Servicos">Serviços</a>
+              <a href="#Servicos" onclick="menuShow()">Serviços</a>
             </li>
             <li>
-              <a href="#Historia">História</a>
+              <a href="#Historia" onclick="menuShow()">História</a>
             </li>
             <li>
-              <a href="#Equipe">Equipe</a>
+              <a href="#Equipe" onclick="menuShow()">Equipe</a>
             </li>
             <li>
-              <a href="#Contatos">Contatos</a>
+              <a href="#Contatos" onclick="menuShow()">Contatos</a>
             </li>
           </ul>
         </nav>
       </div>
-      <div id="Mobile" class="Menu-Mobile">
-        <div class="menu-Icon">
-          <div class="logo">
-            <a href="#Home"
-              ><img src="src/assets/images/logo.gif" alt="Logo"
-            /></a>
+    </div>
+  </header>
+  <main>
+    <section id="Inicio">
+      <div class="CentralizaSection">
+        <h1>
+          Bem-vindo ao Espaço Du Corte
+          <span>Onde estilo e qualidade se encontram.</span>
+        </h1>
+        <a class="bn47"
+          href="https://booksy.com/pt-br/130993_espaco-du-corte_barbearias_500503_itabira?hl=pt-BR&gei=Y5dzZr_nLcab1sQPpqGimA4&rwg_token=AJKvS9XvU7qa2L8SZyddWk2HWDRTm3qVjlE3PIMQxUlKNN3HJ-niCaY7S_5kahocVHVlGZcQmjtYa3faWP7_1OSobNOW5Iftog%3D%3D"
+          target="_blank" rel="noopener noreferrer">Agende Seu Horário</a>
+      </div>
+    </section>
+    <section id="Servicos" class="CentralizaSection">
+      <h2>Serviços</h2>
+      <article>
+        <h3 class="h3Servicos">
+          Clique nos Cartões Abaixo para Ver a Tabela de Preços
+        </h3>
+        <div class="Barbearia">
+          <div class="CardServicos">
+            <figure class="BarbServ">
+              <img src="src/assets/icons/tesoura.png" width="90" alt="Tesoura">
+              <figcaption>CORTE</figcaption>
+            </figure>
+            <div id="modal1" class="modal">
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <div class="tabelaPrecos">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th colspan="2">Cortes</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Degradê ou Disfarçado</td>
+                        <td>R$ 30,00</td>
+                      </tr>
+                      <tr>
+                        <td>Social</td>
+                        <td>R$ 25,00</td>
+                      </tr>
+                      <tr>
+                        <td>Sobrancelha</td>
+                        <td>R$ 10,00</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
           </div>
-          <button class="mIcon" onclick="menuShow()">
-            <span id="barraMenu"></span>
-          </button>
+          <div class="CardServicos">
+            <figure class="BarbServ">
+              <img src="src/assets/icons/corte-de-barba.png" width="90" alt="Barba + tesoura">
+              <figcaption>BARBAS</figcaption>
+            </figure>
+            <div id="modal2" class="modal">
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <div class="tabelaPrecos">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th colspan="2">Barbas</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Barba Desenhada</td>
+                        <td>R$ 25,00</td>
+                      </tr>
+                      <tr>
+                        <td>Barba Total (Raspada)</td>
+                        <td>R$ 25,00</td>
+                      </tr>
+                      <tr>
+                        <td>Bigodinho Fininho</td>
+                        <td>R$ 5,00</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="CardServicos">
+            <figure class="BarbServ">
+              <img src="src/assets/icons/chemicals.png" width="90" alt="Formula Quimica">
+              <figcaption>QUÍMICOS</figcaption>
+            </figure>
+            <div id="modal3" class="modal">
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <div class="tabelaPrecos">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th colspan="2">Químicos</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Relaxamento*</td>
+                        <td>R$ 30,00</td>
+                      </tr>
+                      <tr>
+                        <td>Pigmentação*</td>
+                        <td>R$ 25,00</td>
+                      </tr>
+                      <tr>
+                        <td>Luzes ou Reflexos</td>
+                        <td>R$ 50,00</td>
+                      </tr>
+                    </tbody>
+                    <tfoot>
+                      <tr>
+                        <td colspan="2">
+                          * Variável de acordo com o tamanho do cabelo
+                        </td>
+                      </tr>
+                    </tfoot>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="CardServicos">
+            <figure class="BarbServ">
+              <img src="src/assets/icons/hair-cut-tool.png" width="90" alt="tesoura + pente">
+              <figcaption>COMBOS</figcaption>
+            </figure>
+            <div id="modal4" class="modal">
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <div class="tabelaPrecos">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th colspan="2">Combos</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          Corte + Barba Pigmentada + Sobrancelha + Pigmentação
+                        </td>
+                        <td>R$ 100,00</td>
+                      </tr>
+                      <tr>
+                        <td>Nevoa + Corte + Sobrancelha</td>
+                        <td>R$ 150,00</td>
+                      </tr>
+                      <tr>
+                        <td>Corte + Barba + Sobrancelha</td>
+                        <td>R$ 60,00</td>
+                      </tr>
+                      <tr>
+                        <td>Corte + Barba</td>
+                        <td>R$ 55,00</td>
+                      </tr>
+                      <tr>
+                        <td>Corte + Pigmentação</td>
+                        <td>R$ 55,00</td>
+                      </tr>
+                      <tr>
+                        <td>Pezinho</td>
+                        <td>R$ 10,00</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="area_menu">
-          <nav id="Menu-Open">
+      </article>
+      <h2>Curso de Barbeiro</h2>
+      <article class="Curso">
+        <h3>Descrição</h3>
+        <p>
+          O Curso de Barbeiro oferecido na cidade de Itabira é uma
+          oportunidade única para aqueles que desejam ingressar no mundo da
+          barbearia profissional. Ministrado pelo experiente professor
+          Jonathan, este curso abrangente tem duração de 3 meses e é projetado
+          para fornecer aos alunos uma base sólida nas principais técnicas de
+          corte e cuidados pessoais masculinos.
+        </p>
+        <details>
+          <summary>Conteúdo Programático</summary>
+          <div class="content">
+            <p>
+              Durante os três meses de curso, os participantes irão aprender e
+              praticar uma variedade de técnicas essenciais, incluindo:
+            </p>
             <ul>
               <li>
-                <a href="#Home" onclick="menuShow()">Início</a>
+                Cortes Sociais: Técnicas clássicas e modernas para cortes
+                formais e casuais, atendendo às preferências de diferentes
+                clientes.
               </li>
               <li>
-                <a href="#Servicos" onclick="menuShow()">Serviços</a>
+                Corte Disfarçado (Fade): Métodos para criar graduações
+                perfeitas, proporcionando um visual elegante e sofisticado.
               </li>
               <li>
-                <a href="#Historia" onclick="menuShow()">História</a>
+                Pigmentação: Uso de produtos e técnicas para aprimorar a cor
+                do cabelo e da barba, garantindo um resultado natural e
+                duradouro.
               </li>
               <li>
-                <a href="#Equipe" onclick="menuShow()">Equipe</a>
+                Nevou: Técnicas específicas para o efeito nevou,
+                proporcionando um estilo diferenciado e moderno.
               </li>
               <li>
-                <a href="#Contatos" onclick="menuShow()">Contatos</a>
+                Barba: Cuidados e modelagem da barba, desde o aparo até a
+                definição dos contornos, utilizando ferramentas e produtos
+                adequados.
+              </li>
+              <li>
+                Sobrancelha: Técnicas de design e manutenção das sobrancelhas
+                masculinas, realçando a expressão e harmonia facial.
               </li>
             </ul>
-          </nav>
+          </div>
+        </details>
+        <details>
+          <summary>Metodologia</summary>
+          <div class="content">
+            <p>
+              O curso é estruturado de forma prática e teórica, permitindo que
+              os alunos adquiram conhecimento e habilidades através de
+              demonstrações ao vivo, exercícios práticos e orientação
+              personalizada. O professor Jonathan, com sua vasta experiência
+              na área, oferece suporte contínuo e feedback construtivo,
+              garantindo que cada aluno desenvolva confiança e competência em
+              suas habilidades.
+            </p>
+          </div>
+        </details>
+        <details>
+          <summary>Público-Alvo</summary>
+          <div class="content">
+            <p>
+              Este curso é ideal tanto para iniciantes que desejam começar uma
+              carreira na barbearia quanto para profissionais que buscam
+              aprimorar suas técnicas e expandir seu repertório de serviços.
+            </p>
+          </div>
+        </details>
+        <details>
+          <summary>Inscrições</summary>
+          <div class="content">
+            <p>
+              As inscrições estão abertas e as vagas são limitadas para
+              garantir um aprendizado mais individualizado. Não perca a
+              oportunidade de se capacitar com um dos melhores profissionais
+              da região e dar um passo significativo na sua carreira de
+              barbeiro.
+            </p>
+          </div>
+        </details>
+        <h3>Informações Adicionais</h3>
+        <p>
+          Para mais detalhes sobre o curso, incluindo horários, valores e
+          requisitos de inscrição, entre em contato com a nossa equipe.
+          Estamos ansiosos para ajudá-lo a alcançar seus objetivos
+          profissionais e transformar sua paixão pela barbearia em uma
+          carreira de sucesso.
+        </p>
+        <div class="btnInscrevase">
+          <a href="https://wa.me/5531985915131?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20curso%20de%20barbeiro!"
+            class="bn7" target="_blank" rel="noopener noreferrer"><img src="src/assets/icons/whatsapp.png"
+              alt="whatsapp" width="20">
+            Inscreva-se</a>
         </div>
-      </div>
-    </header>
-    <main>
-      <section id="Inicio">
-        <div class="CentralizaSection">
-          <h1>
-            Bem-vindo ao Espaço Du Corte
-            <span>Onde estilo e qualidade se encontram.</span>
-          </h1>
-          <a
-            class="bn47"
-            href="https://booksy.com/pt-br/130993_espaco-du-corte_barbearias_500503_itabira?hl=pt-BR&gei=Y5dzZr_nLcab1sQPpqGimA4&rwg_token=AJKvS9XvU7qa2L8SZyddWk2HWDRTm3qVjlE3PIMQxUlKNN3HJ-niCaY7S_5kahocVHVlGZcQmjtYa3faWP7_1OSobNOW5Iftog%3D%3D"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Agende Seu Horário</a
-          >
+      </article>
+    </section>
+    <section id="Historia" class="CentralizaSection">
+      <h2>Conheça a Nossa História</h2>
+      <article>
+        <h3>Quem é Jonathan Cipriano?</h3>
+        <div class="Jonathan">
+          <div class="fotoPerfil">
+            <img src="src/assets/images/jonathan.jpg" alt="Foto de Jonathan" width="250">
+          </div>
+          <div class="miniBiografia">
+            <p>
+              Jonathan Cipriano é um renomado barbeiro e empreendedor de
+              Itabira, cuja paixão pela barbearia começou na adolescência,
+              cortando o cabelo do irmão mais novo em casa. Seu talento e amor
+              pela profissão cresceram ao longo dos anos, levando-o a iniciar
+              sua carreira profissional.
+            </p>
+            <p>
+              Dedicado ao aprimoramento constante, Jonathan investe em estudos
+              e treinamentos para se manter atualizado com as últimas
+              tendências e técnicas. Reconhecido por sua precisão e
+              criatividade, ele atende seus clientes com excelência e
+              compartilha seu conhecimento através de cursos de barbearia.
+            </p>
+            <p>
+              Jonathan acredita que a barbearia é uma arte transformadora, e
+              seu objetivo é continuar evoluindo como profissional enquanto
+              inspira novos barbeiros a seguirem uma trajetória de sucesso e
+              dedicação.
+            </p>
+          </div>
         </div>
-      </section>
-      <section id="Servicos" class="CentralizaSection">
-        <h2>Serviços</h2>
-        <article>
-          <h3 class="h3Servicos">
-            Clique nos Cartões Abaixo para Ver a Tabela de Preços
-          </h3>
-          <div class="Barbearia">
-            <div class="CardServicos">
-              <figure class="BarbServ">
-                <img
-                  src="src/assets/icons/tesoura.png"
-                  width="90"
-                  alt="Tesoura"
-                />
-                <figcaption>CORTE</figcaption>
-              </figure>
-              <div id="modal1" class="modal">
-                <div class="modal-content">
-                  <span class="close">&times;</span>
-                  <div class="tabelaPrecos">
-                    <table>
-                      <thead>
-                        <tr>
-                          <th colspan="2">Cortes</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>Degradê ou Disfarçado</td>
-                          <td>R$ 30,00</td>
-                        </tr>
-                        <tr>
-                          <td>Social</td>
-                          <td>R$ 25,00</td>
-                        </tr>
-                        <tr>
-                          <td>Sobrancelha</td>
-                          <td>R$ 10,00</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
+      </article>
+      <h2>Espaço Du Corte</h2>
+      <article class="ducorte">
+        <div class="histDuCorte">
+          <h3>Início e Expansão</h3>
+          <p>
+            A Espaço Du Corte surgiu em 2015, fundada por Jonathan Cipriano e
+            uma sócia. No início, a barbearia oferecia uma variedade de
+            serviços, mas com o tempo, a Espaço Du Corte se especializou no
+            segmento de cortes masculinos. Focada em atender os clientes com
+            qualidade, eficiência e superando expectativas, a barbearia
+            estabeleceu princípios e valores morais sólidos que guiam seu
+            atendimento.
+          </p>
+          <h3>Evolução dos Serviços</h3>
+          <p>
+            Ao longo dos anos, a Espaço Du Corte expandiu seu leque de
+            serviços além dos cortes tradicionais. A barbearia começou a
+            incluir tratamentos especializados, como pigmentação, design de
+            barba e sobrancelhas, entre outros, sempre buscando inovar e
+            oferecer o melhor para seus clientes.
+          </p>
+          <h3>Crescimento e Formação</h3>
+          <p>
+            No final de 2024, a Espaço Du Corte alcançou um marco
+            significativo com a abertura de sua segunda unidade no mesmo
+            bairro. Além disso, a barbearia implementou o Curso para
+            Barbeiros, ministrado por Jonathan Cipriano, para formar novos
+            profissionais e compartilhar seu conhecimento e paixão pela
+            barbearia.
+          </p>
+          <p>
+            A Espaço Du Corte continua comprometida com a excelência no
+            atendimento e a formação de novos talentos, consolidando-se como
+            uma referência na arte da barbearia em Itabira.
+          </p>
+        </div>
+        <div class="avaliacoes">
+          <img src="src/assets/images/Avaliacao3.png" alt="Avalições de clientes" width="350" height="95">
+          <img src="src/assets/images/Avaliacao2.png" alt="Avalições de clientes" width="350" height="95">
+          <img src="src/assets/images/Avaliacao4.png" alt="Avalições de clientes" width="350" height="95">
+          <img src="src/assets/images/Avaliacao1.png" alt="Avalições de clientes" width="350" height="95">
+        </div>
+      </article>
+    </section>
+    <section id="Equipe" class="CentralizaSection">
+      <h2>Equipe</h2>
+      <article>
+        <h3 class="h3Equipe">Conheça os Integrantes da Família Du Corte</h3>
+        <div class="equipeCards">
+          <div class="card">
+            <figure>
+              <img src="src/assets/images/User.jpeg" width="140" alt="Foto de perfil">
+              <figcaption>Cauã</figcaption>
+            </figure>
+          </div>
+          <div class="card">
+            <figure>
+              <img src="src/assets/images/User.jpeg" width="140" alt="Foto de perfil">
+              <figcaption>Cristian</figcaption>
+            </figure>
+          </div>
+          <div class="card">
+            <figure>
+              <img src="src/assets/images/jonathan.jpg" width="140" alt="Foto de perfil">
+              <figcaption>
+                <div class="bn40div">
+                  <a class="bn40" href="https://www.instagram.com/espaco_du_corte_oficial_/" target="_blank"
+                    rel="noopener noreferrer">Jonathan</a>
                 </div>
-              </div>
-            </div>
-            <div class="CardServicos">
-              <figure class="BarbServ">
-                <img
-                  src="src/assets/icons/corte-de-barba.png"
-                  width="90"
-                  alt="Barba + tesoura"
-                />
-                <figcaption>BARBAS</figcaption>
-              </figure>
-              <div id="modal2" class="modal">
-                <div class="modal-content">
-                  <span class="close">&times;</span>
-                  <div class="tabelaPrecos">
-                    <table>
-                      <thead>
-                        <tr>
-                          <th colspan="2">Barbas</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>Barba Desenhada</td>
-                          <td>R$ 25,00</td>
-                        </tr>
-                        <tr>
-                          <td>Barba Total (Raspada)</td>
-                          <td>R$ 25,00</td>
-                        </tr>
-                        <tr>
-                          <td>Bigodinho Fininho</td>
-                          <td>R$ 5,00</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="CardServicos">
-              <figure class="BarbServ">
-                <img
-                  src="src/assets/icons/chemicals.png"
-                  width="90"
-                  alt="Formula Quimica"
-                />
-                <figcaption>QUÍMICOS</figcaption>
-              </figure>
-              <div id="modal3" class="modal">
-                <div class="modal-content">
-                  <span class="close">&times;</span>
-                  <div class="tabelaPrecos">
-                    <table>
-                      <thead>
-                        <tr>
-                          <th colspan="2">Químicos</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>Relaxamento*</td>
-                          <td>R$ 30,00</td>
-                        </tr>
-                        <tr>
-                          <td>Pigmentação*</td>
-                          <td>R$ 25,00</td>
-                        </tr>
-                        <tr>
-                          <td>Luzes ou Reflexos</td>
-                          <td>R$ 50,00</td>
-                        </tr>
-                      </tbody>
-                      <tfoot>
-                        <tr>
-                          <td colspan="2">
-                            * Variável de acordo com o tamanho do cabelo
-                          </td>
-                        </tr>
-                      </tfoot>
-                    </table>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="CardServicos">
-              <figure class="BarbServ">
-                <img
-                  src="src/assets/icons/hair-cut-tool.png"
-                  width="90"
-                  alt="tesoura + pente"
-                />
-                <figcaption>COMBOS</figcaption>
-              </figure>
-              <div id="modal4" class="modal">
-                <div class="modal-content">
-                  <span class="close">&times;</span>
-                  <div class="tabelaPrecos">
-                    <table>
-                      <thead>
-                        <tr>
-                          <th colspan="2">Combos</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>
-                            Corte + Barba Pigmentada + Sobrancelha + Pigmentação
-                          </td>
-                          <td>R$ 100,00</td>
-                        </tr>
-                        <tr>
-                          <td>Nevoa + Corte + Sobrancelha</td>
-                          <td>R$ 150,00</td>
-                        </tr>
-                        <tr>
-                          <td>Corte + Barba + Sobrancelha</td>
-                          <td>R$ 60,00</td>
-                        </tr>
-                        <tr>
-                          <td>Corte + Barba</td>
-                          <td>R$ 55,00</td>
-                        </tr>
-                        <tr>
-                          <td>Corte + Pigmentação</td>
-                          <td>R$ 55,00</td>
-                        </tr>
-                        <tr>
-                          <td>Pezinho</td>
-                          <td>R$ 10,00</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-              </div>
-            </div>
+              </figcaption>
+            </figure>
           </div>
-        </article>
-        <h2>Curso de Barbeiro</h2>
-        <article class="Curso">
-          <h3>Descrição</h3>
-          <p>
-            O Curso de Barbeiro oferecido na cidade de Itabira é uma
-            oportunidade única para aqueles que desejam ingressar no mundo da
-            barbearia profissional. Ministrado pelo experiente professor
-            Jonathan, este curso abrangente tem duração de 3 meses e é projetado
-            para fornecer aos alunos uma base sólida nas principais técnicas de
-            corte e cuidados pessoais masculinos.
-          </p>
-          <details>
-            <summary>Conteúdo Programático</summary>
-            <div class="content">
-              <p>
-                Durante os três meses de curso, os participantes irão aprender e
-                praticar uma variedade de técnicas essenciais, incluindo:
-              </p>
-              <ul>
-                <li>
-                  Cortes Sociais: Técnicas clássicas e modernas para cortes
-                  formais e casuais, atendendo às preferências de diferentes
-                  clientes.
-                </li>
-                <li>
-                  Corte Disfarçado (Fade): Métodos para criar graduações
-                  perfeitas, proporcionando um visual elegante e sofisticado.
-                </li>
-                <li>
-                  Pigmentação: Uso de produtos e técnicas para aprimorar a cor
-                  do cabelo e da barba, garantindo um resultado natural e
-                  duradouro.
-                </li>
-                <li>
-                  Nevou: Técnicas específicas para o efeito nevou,
-                  proporcionando um estilo diferenciado e moderno.
-                </li>
-                <li>
-                  Barba: Cuidados e modelagem da barba, desde o aparo até a
-                  definição dos contornos, utilizando ferramentas e produtos
-                  adequados.
-                </li>
-                <li>
-                  Sobrancelha: Técnicas de design e manutenção das sobrancelhas
-                  masculinas, realçando a expressão e harmonia facial.
-                </li>
-              </ul>
-            </div>
-          </details>
-          <details>
-            <summary>Metodologia</summary>
-            <div class="content">
-              <p>
-                O curso é estruturado de forma prática e teórica, permitindo que
-                os alunos adquiram conhecimento e habilidades através de
-                demonstrações ao vivo, exercícios práticos e orientação
-                personalizada. O professor Jonathan, com sua vasta experiência
-                na área, oferece suporte contínuo e feedback construtivo,
-                garantindo que cada aluno desenvolva confiança e competência em
-                suas habilidades.
-              </p>
-            </div>
-          </details>
-          <details>
-            <summary>Público-Alvo</summary>
-            <div class="content">
-              <p>
-                Este curso é ideal tanto para iniciantes que desejam começar uma
-                carreira na barbearia quanto para profissionais que buscam
-                aprimorar suas técnicas e expandir seu repertório de serviços.
-              </p>
-            </div>
-          </details>
-          <details>
-            <summary>Inscrições</summary>
-            <div class="content">
-              <p>
-                As inscrições estão abertas e as vagas são limitadas para
-                garantir um aprendizado mais individualizado. Não perca a
-                oportunidade de se capacitar com um dos melhores profissionais
-                da região e dar um passo significativo na sua carreira de
-                barbeiro.
-              </p>
-            </div>
-          </details>
-          <h3>Informações Adicionais</h3>
-          <p>
-            Para mais detalhes sobre o curso, incluindo horários, valores e
-            requisitos de inscrição, entre em contato com a nossa equipe.
-            Estamos ansiosos para ajudá-lo a alcançar seus objetivos
-            profissionais e transformar sua paixão pela barbearia em uma
-            carreira de sucesso.
-          </p>
-          <div class="btnInscrevase">
-            <a
-              href="https://wa.me/5531985915131"
-              class="bn7"
-              target="_blank"
-              rel="noopener noreferrer"
-              ><img
-                src="src/assets/icons/whatsapp.png"
-                alt="whatsapp"
-                width="20"
-              />
-              Inscreva-se</a
-            >
+          <div class="card">
+            <figure>
+              <img src="src/assets/images/User.jpeg" width="140" alt="Foto de perfil">
+              <figcaption>João Pedro</figcaption>
+            </figure>
           </div>
-        </article>
-      </section>
-      <section id="Historia" class="CentralizaSection">
-        <h2>Conheça a Nossa História</h2>
-        <article>
-          <h3>Quem é Jonathan Cipriano?</h3>
-          <div class="Jonathan">
-            <div class="fotoPerfil">
-              <img
-                src="src/assets/images/jonathan.jpg"
-                alt="Foto de Jonathan"
-                width="250"
-              />
-            </div>
-            <div class="miniBiografia">
-              <p>
-                Jonathan Cipriano é um renomado barbeiro e empreendedor de
-                Itabira, cuja paixão pela barbearia começou na adolescência,
-                cortando o cabelo do irmão mais novo em casa. Seu talento e amor
-                pela profissão cresceram ao longo dos anos, levando-o a iniciar
-                sua carreira profissional.
-              </p>
-              <p>
-                Dedicado ao aprimoramento constante, Jonathan investe em estudos
-                e treinamentos para se manter atualizado com as últimas
-                tendências e técnicas. Reconhecido por sua precisão e
-                criatividade, ele atende seus clientes com excelência e
-                compartilha seu conhecimento através de cursos de barbearia.
-              </p>
-              <p>
-                Jonathan acredita que a barbearia é uma arte transformadora, e
-                seu objetivo é continuar evoluindo como profissional enquanto
-                inspira novos barbeiros a seguirem uma trajetória de sucesso e
-                dedicação.
-              </p>
-            </div>
+          <div class="card">
+            <figure>
+              <img src="src/assets/images/User.jpeg" width="140" alt="Foto de perfil">
+              <figcaption>Kayky</figcaption>
+            </figure>
           </div>
-        </article>
-        <h2>Espaço Du Corte</h2>
-        <article class="ducorte">
-          <div class="histDuCorte">
-            <h3>Início e Expansão</h3>
-            <p>
-              A Espaço Du Corte surgiu em 2015, fundada por Jonathan Cipriano e
-              uma sócia. No início, a barbearia oferecia uma variedade de
-              serviços, mas com o tempo, a Espaço Du Corte se especializou no
-              segmento de cortes masculinos. Focada em atender os clientes com
-              qualidade, eficiência e superando expectativas, a barbearia
-              estabeleceu princípios e valores morais sólidos que guiam seu
-              atendimento.
-            </p>
-            <h3>Evolução dos Serviços</h3>
-            <p>
-              Ao longo dos anos, a Espaço Du Corte expandiu seu leque de
-              serviços além dos cortes tradicionais. A barbearia começou a
-              incluir tratamentos especializados, como pigmentação, design de
-              barba e sobrancelhas, entre outros, sempre buscando inovar e
-              oferecer o melhor para seus clientes.
-            </p>
-            <h3>Crescimento e Formação</h3>
-            <p>
-              No final de 2024, a Espaço Du Corte alcançou um marco
-              significativo com a abertura de sua segunda unidade no mesmo
-              bairro. Além disso, a barbearia implementou o Curso para
-              Barbeiros, ministrado por Jonathan Cipriano, para formar novos
-              profissionais e compartilhar seu conhecimento e paixão pela
-              barbearia.
-            </p>
-            <p>
-              A Espaço Du Corte continua comprometida com a excelência no
-              atendimento e a formação de novos talentos, consolidando-se como
-              uma referência na arte da barbearia em Itabira.
-            </p>
+          <div class="card">
+            <figure>
+              <img src="src/assets/images/User.jpeg" width="140" alt="Foto de perfil">
+              <figcaption>Wesley</figcaption>
+            </figure>
           </div>
-          <div class="avaliacoes">
-            <img
-              src="src/assets/images/Avaliacao3.png"
-              alt="Avalições de clientes"
-              width="350"
-              height="95"
-            />
-            <img
-              src="src/assets/images/Avaliacao2.png"
-              alt="Avalições de clientes"
-              width="350"
-              height="95"
-            />
-            <img
-              src="src/assets/images/Avaliacao4.png"
-              alt="Avalições de clientes"
-              width="350"
-              height="95"
-            />
-            <img
-              src="src/assets/images/Avaliacao1.png"
-              alt="Avalições de clientes"
-              width="350"
-              height="95"
-            />
-          </div>
-        </article>
-      </section>
-      <section id="Equipe" class="CentralizaSection">
-        <h2>Equipe</h2>
-        <article>
-          <h3 class="h3Equipe">Conheça os Integrantes da Família Du Corte</h3>
-          <div class="equipeCards">
-            <div class="card">
-              <figure>
-                <img
-                  src="src/assets/images/User.jpeg"
-                  width="140"
-                  alt="Foto de perfil"
-                />
-                <figcaption>Cauã</figcaption>
-              </figure>
-            </div>
-            <div class="card">
-              <figure>
-                <img
-                  src="src/assets/images/User.jpeg"
-                  width="140"
-                  alt="Foto de perfil"
-                />
-                <figcaption>Cristian</figcaption>
-              </figure>
-            </div>
-            <div class="card">
-              <figure>
-                <img
-                  src="src/assets/images/jonathan.jpg"
-                  width="140"
-                  alt="Foto de perfil"
-                />
-                <figcaption>
-                  <div class="bn40div">
-                    <a
-                      class="bn40"
-                      href="https://www.instagram.com/espaco_du_corte_oficial_/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      >Jonathan</a
-                    >
-                  </div>
-                </figcaption>
-              </figure>
-            </div>
-            <div class="card">
-              <figure>
-                <img
-                  src="src/assets/images/User.jpeg"
-                  width="140"
-                  alt="Foto de perfil"
-                />
-                <figcaption>João Pedro</figcaption>
-              </figure>
-            </div>
-            <div class="card">
-              <figure>
-                <img
-                  src="src/assets/images/User.jpeg"
-                  width="140"
-                  alt="Foto de perfil"
-                />
-                <figcaption>Kayky</figcaption>
-              </figure>
-            </div>
-            <div class="card">
-              <figure>
-                <img
-                  src="src/assets/images/User.jpeg"
-                  width="140"
-                  alt="Foto de perfil"
-                />
-                <figcaption>Wesley</figcaption>
-              </figure>
-            </div>
-          </div>
-        </article>
-      </section>
-    </main>
-    <footer id="Contatos">
-      <section class="info">
-        <article class="linksContatos">
-          <h2>Contatos</h2>
-          <p>
-            Email:
-            <a
-              href="mailto:espacoducorteoficial@gmail.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              >espacoducorteoficial@gmail.com</a
-            >
-          </p>
-          <p>
-            Whatsapp:
-            <a
-              href="https://wa.me/5531985915131"
-              target="_blank"
-              rel="noopener noreferrer"
-              >(31) 98591-5131</a
-            >
-          </p>
-          <a
-            href="https://booksy.com/pt-br/130993_espaco-du-corte_barbearias_500503_itabira?hl=pt-BR&gei=Y5dzZr_nLcab1sQPpqGimA4&rwg_token=AJKvS9XvU7qa2L8SZyddWk2HWDRTm3qVjlE3PIMQxUlKNN3HJ-niCaY7S_5kahocVHVlGZcQmjtYa3faWP7_1OSobNOW5Iftog%3D%3D"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Agende seu horário</a
-          >
-        </article>
-        <article class="redesSociais">
-          <h2>Redes Sociais</h2>
-          <p>
-            Siga-nos nas redes sociais:
-            <a
-              href="https://www.instagram.com/espaco_du_corte_oficial_/"
-              target="_blank"
-              rel="noopener noreferrer"
-              ><img
-                src="src/assets/icons/instagram.png"
-                alt="Instagram"
-                width="15"
-              />
-              espaco_du_corte_oficial_</a
-            >
-            <a
-              href="https://www.linkedin.com/in/jonathan-cipriano-65a62a186/"
-              target="_blank"
-              rel="noopener noreferrer"
-              ><img
-              src="src/assets/icons/linkedin.png"
-              alt="linkedin"
-              width="15"
-            /> Jonathan Cipriano</i></a
-            >
-          </p>
-        </article>
-        <article class="horarios">
-          <h2>Horários de funcionamento</h2>
-          <p>Segunda a Sexta: 08:00 - 12:00 e 13:30 - 18:00</p>
-          <p>Sábado: 08:00 - 12:00 e 13:00 - 16:00</p>
-        </article>
-      </section>
-      <section class="endereco">
-        <article>
-          <h2>Endereços</h2>
-          <p>
-            Unidade 1: Rua Valdemar de Alvarenga Lage, 1160 - Água Fresca,
-            Itabira - MG
-          </p>
-          <p>
-            Unidade 2: Rua Valdemar de Alvarenga Lage, 1215 - Água Fresca,
-            Itabira - MG
-          </p>
-        </article>
-      </section>
-      <section class="creditos">
-        <p>&copy; 2024 Espaço Du Corte. Todos os direitos reservados.</p>
-      </section>
-    </footer>
-  </body>
+        </div>
+      </article>
+    </section>
+  </main>
+  <footer id="Contatos">
+    <section class="info">
+      <article class="linksContatos">
+        <h2>Contatos</h2>
+        <p>
+          Email:
+          <a href="mailto:espacoducorteoficial@gmail.com" target="_blank"
+            rel="noopener noreferrer">espacoducorteoficial@gmail.com</a>
+        </p>
+        <p>
+          Whatsapp:
+          <a href="https://wa.me/5531985915131" target="_blank" rel="noopener noreferrer">(31) 98591-5131</a>
+        </p>
+        <a href="https://booksy.com/pt-br/130993_espaco-du-corte_barbearias_500503_itabira?hl=pt-BR&gei=Y5dzZr_nLcab1sQPpqGimA4&rwg_token=AJKvS9XvU7qa2L8SZyddWk2HWDRTm3qVjlE3PIMQxUlKNN3HJ-niCaY7S_5kahocVHVlGZcQmjtYa3faWP7_1OSobNOW5Iftog%3D%3D"
+          target="_blank" rel="noopener noreferrer">Agende seu horário</a>
+      </article>
+      <article class="redesSociais">
+        <h2>Redes Sociais</h2>
+        <p>
+          Siga-nos nas redes sociais:
+          <a href="https://www.instagram.com/espaco_du_corte_oficial_/" target="_blank" rel="noopener noreferrer"><img
+              src="src/assets/icons/instagram.png" alt="Instagram" width="15">
+            espaco_du_corte_oficial_</a>
+          <a href="https://www.linkedin.com/in/jonathan-cipriano-65a62a186/" target="_blank"
+            rel="noopener noreferrer"><img src="src/assets/icons/linkedin.png" alt="linkedin" width="15"> Jonathan
+            Cipriano</a>
+        </p>
+      </article>
+      <article class="horarios">
+        <h2>Horários de funcionamento</h2>
+        <p>Segunda a Sexta: 08:00 - 12:00 e 13:30 - 18:00</p>
+        <p>Sábado: 08:00 - 12:00 e 13:00 - 16:00</p>
+      </article>
+    </section>
+    <section class="endereco">
+      <article>
+        <h2>Endereços</h2>
+        <p>
+          Unidade 1: Rua Valdemar de Alvarenga Lage, 1160 - Água Fresca,
+          Itabira - MG
+        </p>
+        <p>
+          Unidade 2: Rua Valdemar de Alvarenga Lage, 1215 - Água Fresca,
+          Itabira - MG
+        </p>
+      </article>
+    </section>
+    <section class="creditos">
+      <p>&copy; 2024 Espaço Du Corte. Todos os direitos reservados.</p>
+    </section>
+  </footer>
+</body>
+
 </html>
