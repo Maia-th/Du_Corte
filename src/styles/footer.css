@@ -1,19 +1,15 @@
 footer {
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding: 3rem 0;
+  flex-direction: column;
+  padding: 3rem 2rem;
   background-color: var(--bg-color-menu_footer);
   color: var(--text-color);
 }
 
-footer div {
-  margin: 0 1rem;
-  width: 21rem;
-}
-
 footer h2 {
+  display: inline-block;
   margin-bottom: 1rem;
+  border-bottom: 2px solid var(--color-destaque);
 }
 
 footer p {
@@ -21,10 +17,39 @@ footer p {
 }
 
 footer a {
-  color: var(--color-destaque);
   text-decoration: none;
 }
 
 footer a:hover {
-  text-decoration: underline;
+  color: var(--color-destaque);
+}
+
+footer .info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+footer .info article {
+  margin: 1rem;
+  max-width: 18rem;
+}
+
+footer .info .redesSociais a {
+  display: block;
+  margin-top: 0.5rem;
+}
+
+footer .endereco, footer .creditos {
+  display: flex;
+  justify-content: center;
+}
+
+footer .endereco article {
+  margin: 1rem;
+  max-width: 80%;
+}
+
+footer .creditos {
+  margin-top: 1rem;
 }
