@@ -51,6 +51,42 @@ footer .creditos {
   margin: 1rem;
 }
 
+footer .endereco {
+  width: 75%;
+  margin: auto;
+}
+
+footer .endereco article {
+  width: 100%;
+}
+
+footer .endereco article iframe {
+  border: 0;
+  width: 100%;
+  height: 25rem;
+}
+
+footer .endereco article p {
+  text-align: center;
+}
+
 footer .creditos {
   text-align: center;
+}
+
+footer .creditos span {
+  display: block;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 639px) {
+  footer .endereco article iframe {
+    height: 17rem;
+  }
+}
+
+@media (max-width: 551px) {
+  footer .info article {
+    width: 100%;
+  }
 }

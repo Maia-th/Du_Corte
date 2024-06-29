@@ -67,12 +67,6 @@ main #Equipe {
   }
 }
 
-@media (max-width: 551px) {
-  footer .info article {
-    width: 100%;
-  }
-}
-
 @media (max-width: 541px) {
   main h2 {
     font-size: 1.6rem;
