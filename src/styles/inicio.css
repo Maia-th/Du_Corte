@@ -99,7 +99,7 @@ main #Inicio .CentralizaSection .imgScroll img {
 
 @media (max-height: 615px) {
   main #Inicio .CentralizaSection .imgScroll {
-    margin-top: 18rem;
+    margin-top: 20rem;
   }
 }
 
