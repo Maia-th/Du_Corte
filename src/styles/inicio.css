@@ -1,7 +1,7 @@
 main #Inicio {
   align-items: center;
   justify-content: center;
-  min-height: 30dvh;
+  height: 90dvh;
   background-color: var(--color-destaque-section);
   background-image: url(../assets/images/bg.png);
   background-repeat: no-repeat;
@@ -61,6 +61,42 @@ main #Inicio .bn47:hover:before {
   top: 0;
   left: 0;
 }
+
+main #Inicio .CentralizaSection {
+  position: relative;
+  height: 90dvh;
+  justify-content: center;
+}
+
+main #Inicio .CentralizaSection .imgScroll {
+  position: absolute;
+  margin-top: 25rem;
+  margin-left: 0.5rem;
+}
+
+main #Inicio .CentralizaSection .imgScroll img {
+  width: 2rem;
+  animation: down 1.5s infinite;
+}
+
+@keyframes down {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(0, -5px);
+  }
+  50% {
+    transform: translate(0, 5px);
+  }
+  75% {
+    transform: translate(0, -5px);
+  }
+  100% {
+    transform: translate(0, 5);
+  }
+}
+
 
 @media (max-width: 767px) {
   main #Inicio h1 {

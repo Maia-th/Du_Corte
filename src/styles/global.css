@@ -49,12 +49,9 @@ body main .CentralizaSection {
   width: 80%;
 }
 
-main #Inicio,
 main #Servicos,
 main #Historia,
 main #Equipe {
-  display: flex;
-  flex-direction: column;
   padding: 3rem 0;
 }
 
