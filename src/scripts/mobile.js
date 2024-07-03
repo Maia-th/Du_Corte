@@ -11,7 +11,7 @@ function menuShow() {
   });
 
   if (menuArea.style.width === "50vw") {
-    menuArea.style.width = "0vh";
+    menuArea.style.width = "0";
     menuArea.style.display = "none";
     document.removeEventListener("click", closeMenuOnClickOutside);
   } else {
