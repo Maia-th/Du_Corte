@@ -1,7 +1,7 @@
 main #Inicio {
   align-items: center;
   justify-content: center;
-  height: 90dvh;
+  height: calc(100dvh - 4.8rem);
   background-color: var(--color-destaque-section);
   background-image: url(../assets/images/bg.png);
   background-repeat: no-repeat;
@@ -63,14 +63,12 @@ main #Inicio .bn47:hover:before {
 }
 
 main #Inicio .CentralizaSection {
-  position: relative;
-  height: 90dvh;
-  justify-content: center;
+  height: 100dvh;
+  justify-content: center; 
 }
 
 main #Inicio .CentralizaSection .imgScroll {
-  position: absolute;
-  margin-top: 25rem;
+  margin-top: 5rem;
   margin-left: 0.5rem;
 }
 
@@ -97,13 +95,10 @@ main #Inicio .CentralizaSection .imgScroll img {
   }
 }
 
-@media (max-height: 615px) {
-  main #Inicio .CentralizaSection .imgScroll {
-    margin-top: 20rem;
-  }
-}
-
 @media (max-width: 767px) {
+  main #Inicio {
+    height: calc(100dvh - 3rem);
+  }
   main #Inicio h1 {
     font-size: 2rem;
   }
@@ -115,10 +110,16 @@ main #Inicio .CentralizaSection .imgScroll img {
   }
 }
 
-@media (max-width: 484px) {
-  main #Inicio {
-    min-height: 60dvh;
+@media (max-height: 615px) {
+  main #Inicio .CentralizaSection {
+    height: 85dvh;
   }
+  main #Inicio .CentralizaSection .imgScroll {
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 484px) {
   main #Inicio h1 {
     font-size: 1.9rem;
   }
@@ -127,5 +128,11 @@ main #Inicio .CentralizaSection .imgScroll img {
   }
   main #Inicio .bn47 {
     font-size: 1rem;
+  }
+}
+
+@media (max-height: 379px) {
+  main #Inicio .CentralizaSection .imgScroll {
+    display: none;
   }
 }
