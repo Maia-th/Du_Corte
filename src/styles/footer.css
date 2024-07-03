@@ -1,7 +1,7 @@
 footer {
   display: flex;
   flex-direction: column;
-  padding: 3rem 2rem;
+  padding: 3rem 2rem 0 2rem;
   background-color: var(--bg-color-menu_footer);
   color: var(--text-color);
 }
@@ -46,18 +46,14 @@ footer .creditos {
   justify-content: center;
 }
 
-footer .endereco article,
-footer .creditos {
-  margin: 1rem;
-}
-
 footer .endereco {
-  width: 75%;
+  width: 80%;
   margin: auto;
 }
 
 footer .endereco article {
   width: 100%;
+  margin: 0;
 }
 
 footer .endereco article iframe {
@@ -72,6 +68,7 @@ footer .endereco article p {
 
 footer .creditos {
   text-align: center;
+  margin: 1rem 0 0 0;
 }
 
 footer .creditos span {
