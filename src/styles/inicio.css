@@ -29,11 +29,10 @@ main #Inicio .bn47 {
   padding: 1rem 2rem 0.5rem 2.5rem;
   font-size: 1.4rem;
   max-width: 10rem;
-  color: var(--font-text);
-  border: 0.15rem solid #ffffff;
+  color: var(--text-color);
+  border: 0.15rem solid var(--text-color);
   z-index: 6;
   border-radius: 1rem;
-  -webkit-transition: padding 0.3s ease-in-out;
   transition: padding 0.3s ease-in-out;
 }
 
@@ -46,10 +45,9 @@ main #Inicio .bn47:before {
   height: 100%;
   width: 100%;
   background-color: var(--color-destaque);
-  border-right: 0.15rem solid #ffffff;
-  border-bottom: 0.15rem solid #ffffff;
+  border-right: 0.15rem solid var(--text-color);
+  border-bottom: 0.15rem solid var(--text-color);
   border-radius: 1rem;
-  -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
@@ -89,9 +87,6 @@ main #Inicio .CentralizaSection .imgScroll img {
   }
   75% {
     transform: translate(0, -5px);
-  }
-  100% {
-    transform: translate(0, 5);
   }
 }
 
